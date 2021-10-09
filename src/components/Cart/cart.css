@@ -1,0 +1,9 @@
+.shop-section .cart-section {
+    position: relative;
+  }
+.cart-box{
+    position: sticky;
+    top: 20%;
+    background-color: lightskyblue;
+    padding: 20px;
+}

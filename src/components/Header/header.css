@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+}
+.header img {
+  width: 300px;
+  margin: auto;
+  display: block;
+}
+.header nav {
+  background-color: #222;
+}
+.header nav ul{
+    display: flex;
+    margin: 0;
+}
+.header nav ul li{
+    list-style: none;
+    padding: 5px 15px;
+}
+.header nav ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.header nav ul li:hover,
+.header nav ul li:hover a {
+  background-color: lightgray;
+  color: #333;
+}
