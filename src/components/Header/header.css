@@ -9,16 +9,17 @@
 .header nav {
   background-color: #222;
 }
-.header nav ul{
-    display: flex;
-    margin: 0;
+.header nav ul {
+  display: flex;
+  margin: 0;
 }
-.header nav ul li{
-    list-style: none;
-    padding: 5px 15px;
+.header nav ul li {
+  list-style: none;
 }
 .header nav ul a {
   color: #fff;
+  padding: 5px 15px;
+  display: block;
   text-decoration: none;
 }
 .header nav ul li:hover,
