@@ -8,6 +8,7 @@ import Shop from './components/Shop/Shop';
 import TheNotFound from './components/TheNotFound/NotFoun';
 
 function App() {
+  console.log('hello')
   return (
     <div className="App">
       <Router>

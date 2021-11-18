@@ -49,6 +49,7 @@ const Shop = () => {
             newCart = [...cart, product]
         }
         setCart(newCart);
+        // save to local storage
         addToDb(product.key);
     }
     const handleSearch = event => {
