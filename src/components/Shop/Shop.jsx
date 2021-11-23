@@ -68,6 +68,7 @@ const Shop = () => {
           placeholder="Search Product Here.."
         />
       </div>
+      
       <div className="shop-box">
         <div className="product-section">
           <h1>Products: {products.length}</h1>
@@ -79,13 +80,14 @@ const Shop = () => {
             ></Product>
           ))}
         </div>
+        
         <div className="cart-section">
           <Cart cart={cart}>
             <Link to="/orders">
               <button>Review Item With Al</button>
             </Link>
           </Cart>
-        </div>
+        </div><div></div>
       </div>
     </>
   );

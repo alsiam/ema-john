@@ -1,0 +1,25 @@
+/* 
+Login & Register Page Included
+*/
+.google-btn {
+  background-color: crimson;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.login-section,
+.register-section {
+  display: flex;
+  justify-content: center;
+}
+.input-email,
+.input-password,
+.input-submit {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
