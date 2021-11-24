@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import useFirebase from "../../Hooks/useFirebase";
+import useAuth from "../../Hooks/useAuth";
 import logo from "../../images/logo.png";
 import "./header.css";
 
 const Header = () => {
-  const { user, logout } = useFirebase();
+  const { user, logout } = useAuth();
   return (
     <div className="header">
       <img src={logo} alt="" />
@@ -28,7 +28,7 @@ const Header = () => {
             <li onClick={logout}>Logout</li>
           )}
 
-          <p>{user.displayName}</p>
+          <span> {user.displayName}</span>
         </ul>
       </nav>
     </div>

@@ -17,8 +17,10 @@
   list-style: none;
   color: #fff;
 }
-.header nav ul p{
+.header nav span{
   color: #fff;
+  margin-left: 10px;
+  background: purple;
 }
 .header nav ul a {
   color: #fff;

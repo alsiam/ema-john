@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate  } from 'react-router-dom';
 import useCart from '../../Hooks/useCart';
 import useProducts from '../../Hooks/UseProducts';
 import { clearTheCart, removeFromDb } from '../../utilities/fakedb';
@@ -9,7 +9,7 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 const OrderReview = () => {
   const [products] = useProducts();
   const [cart, setCart] = useCart(products);
-  const history = useHistory();
+  const history = useNavigate ();
   const handleRemove = key => {
     const newCart = cart.filter(product => product.key !== key);
     setCart(newCart);
